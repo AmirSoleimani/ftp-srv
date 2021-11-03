@@ -2,7 +2,7 @@ const net = require('net');
 const errors = require('../errors');
 
 const MAX_PORT = 65535;
-const MAX_PORT_CHECK_ATTEMPT = 5;
+const MAX_PORT_CHECK_ATTEMPT = 15;
 
 function* portNumberGenerator(min, max = MAX_PORT) {
   let current = min;
