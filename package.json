@@ -1,5 +1,5 @@
 {
-  "name": "@dominiek/ftp-srv",
+  "name": "@drakonen/ftp-srv",
   "version": "0.0.6",
   "description": "Modern, extensible FTP Server",
   "keywords": [
@@ -18,11 +18,13 @@
     "ftp-srv.d.ts"
   ],
   "main": "ftp-srv.js",
-  "bin": "./bin/index.js",
+  "bin": {
+    "ftp-srv": "bin/index.js"
+  },
   "types": "./ftp-srv.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dominiek/ftp-srv"
+    "url": "git+https://github.com/drakonen/ftp-srv.git"
   },
   "scripts": {
     "pre-release": "npm run verify",
