@@ -1,5 +1,5 @@
 {
-  "name": "@drakonen/ftp-srv",
+  "name": "@AmirSoleimani/ftp-srv",
   "version": "0.0.6",
   "description": "Modern, extensible FTP Server",
   "keywords": [
@@ -24,7 +24,7 @@
   "types": "./ftp-srv.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drakonen/ftp-srv.git"
+    "url": "git+https://github.com/AmirSoleimani/ftp-srv.git"
   },
   "scripts": {
     "pre-release": "npm run verify",
