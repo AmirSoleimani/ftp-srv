@@ -1,6 +1,6 @@
 {
-  "name": "@AmirSoleimani/ftp-srv",
-  "version": "0.0.6",
+  "name": "@amirniaki/ftp-srv",
+  "version": "0.0.7",
   "description": "Modern, extensible FTP Server",
   "keywords": [
     "ftp",
@@ -89,5 +89,13 @@
   },
   "engines": {
     "node": ">=6.x"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/AmirSoleimani/ftp-srv/issues"
+  },
+  "homepage": "https://github.com/AmirSoleimani/ftp-srv#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }
